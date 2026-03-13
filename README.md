@@ -115,19 +115,13 @@ Input Image (224 x 224 x 3)
 ## Project Structure
 
 ```
-Sheep_Breed_Classification_model/
+SheepBreedNet/
 |
-|-- assets/                          # Logo and image assets
-|-- data/                            # Dataset directory (downloaded via Kaggle API)
-|   |-- train/
-|   |-- valid/
-|   `-- test/
-|
-|-- models/                          # Saved model files (.h5 or SavedModel format)
-|-- logs/                            # TensorBoard training logs
-|
-|-- sheep_breed_classification.ipynb # Main training notebook
-`-- README.md
+|-- Sheep_Breed_Classification.ipynb   # Main notebook (data loading, training, evaluation)
+|-- labels.csv                         # Class label mappings for all sheep breeds
+|-- sheep_breed_predictions.csv        # Model prediction outputs on the test set
+|-- LICENSE                            # Project license
+`-- README.md                          # Project documentation
 ```
 
 ---
